@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSH.API", "SSH.API\SSH.API.csproj", "{343C5A95-A0CD-4A48-9B12-8B862933A4A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{14BF2865-9743-4758-B8D1-6FF504793CF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSH.Framework", "SSH.Framework\SSH.Framework.csproj", "{FE230941-11B9-4EEF-B406-1FFEE3708BA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSH.Framework.Caching", "SSH.Framework.Caching\SSH.Framework.Caching.csproj", "{43E6ED6D-AF51-475B-8612-CCC8DCF3ED16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSH.Framework.CQRS", "SSH.Framework.CQRS\SSH.Framework.CQRS.csproj", "{BA02AF84-F2E8-48B8-8382-5C727C48FA5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSH.Framework.Logging", "SSH.Framework.Logging\SSH.Framework.Logging.csproj", "{7099CCB1-0D32-435B-8112-923C3506E3AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{343C5A95-A0CD-4A48-9B12-8B862933A4A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{343C5A95-A0CD-4A48-9B12-8B862933A4A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{343C5A95-A0CD-4A48-9B12-8B862933A4A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{343C5A95-A0CD-4A48-9B12-8B862933A4A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE230941-11B9-4EEF-B406-1FFEE3708BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE230941-11B9-4EEF-B406-1FFEE3708BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE230941-11B9-4EEF-B406-1FFEE3708BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE230941-11B9-4EEF-B406-1FFEE3708BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43E6ED6D-AF51-475B-8612-CCC8DCF3ED16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43E6ED6D-AF51-475B-8612-CCC8DCF3ED16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43E6ED6D-AF51-475B-8612-CCC8DCF3ED16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43E6ED6D-AF51-475B-8612-CCC8DCF3ED16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA02AF84-F2E8-48B8-8382-5C727C48FA5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA02AF84-F2E8-48B8-8382-5C727C48FA5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA02AF84-F2E8-48B8-8382-5C727C48FA5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA02AF84-F2E8-48B8-8382-5C727C48FA5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7099CCB1-0D32-435B-8112-923C3506E3AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7099CCB1-0D32-435B-8112-923C3506E3AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7099CCB1-0D32-435B-8112-923C3506E3AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7099CCB1-0D32-435B-8112-923C3506E3AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE230941-11B9-4EEF-B406-1FFEE3708BA6} = {14BF2865-9743-4758-B8D1-6FF504793CF9}
+		{43E6ED6D-AF51-475B-8612-CCC8DCF3ED16} = {14BF2865-9743-4758-B8D1-6FF504793CF9}
+		{BA02AF84-F2E8-48B8-8382-5C727C48FA5D} = {14BF2865-9743-4758-B8D1-6FF504793CF9}
+		{7099CCB1-0D32-435B-8112-923C3506E3AF} = {14BF2865-9743-4758-B8D1-6FF504793CF9}
+	EndGlobalSection
+EndGlobal

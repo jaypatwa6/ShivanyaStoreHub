@@ -1,0 +1,6 @@
+@SSH.API_HostAddress = http://localhost:5169
+
+GET {{SSH.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
