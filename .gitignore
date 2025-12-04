@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Solution/SSH.API/.vs
+/Solution/SSH.API/SSH.API/bin/Debug/net8.0
+/Solution/SSH.API/SSH.API/obj/Debug/net8.0
+/Solution/SSH.API/SSH.Framework/obj
+/Solution/SSH.API/SSH.Framework.Caching/obj/Debug/net8.0
+/Solution/SSH.API/SSH.Framework.CQRS/obj/Debug/net8.0
+/Solution/SSH.API/SSH.API/obj
+/Solution/SSH.API/SSH.Framework.Caching/obj
+/Solution/SSH.API/SSH.Framework.CQRS/obj
+/Solution/SSH.API/SSH.Framework.Logging/obj
+
