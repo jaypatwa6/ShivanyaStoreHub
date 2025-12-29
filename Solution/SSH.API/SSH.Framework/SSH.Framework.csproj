@@ -10,7 +10,6 @@
     <Folder Include="Caching\" />
     <Folder Include="CQRS\" />
     <Folder Include="Logging\" />
-    <Folder Include="Persistence\DataContext\" />
   </ItemGroup>
 
 </Project>

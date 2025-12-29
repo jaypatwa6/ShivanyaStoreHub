@@ -2,7 +2,7 @@
 using System.Collections.ObjectModel;
 using System.Linq.Expressions;
 
-namespace SSH.Framework.Persistence.Repository
+namespace SSH.Framework.Persistence
 {
     public interface IRepositoryBase<TEntity, in TKey> where TEntity : Entity<TKey>
     {

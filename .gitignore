@@ -3,14 +3,21 @@
 ################################################################################
 
 /Solution/SSH.API/.vs
-/Solution/SSH.API/SSH.API/bin/Debug/net8.0
-/Solution/SSH.API/SSH.API/obj/Debug/net8.0
-/Solution/SSH.API/SSH.Framework/obj
-/Solution/SSH.API/SSH.Framework.Caching/obj/Debug/net8.0
-/Solution/SSH.API/SSH.Framework.CQRS/obj/Debug/net8.0
+
+/Solution/SSH.API/SSH.API/bin
 /Solution/SSH.API/SSH.API/obj
+
+/Solution/SSH.API/SSH.Framework/bin
+/Solution/SSH.API/SSH.Framework/obj
+
+/Solution/SSH.API/SSH.Framework.Caching/bin
 /Solution/SSH.API/SSH.Framework.Caching/obj
+
+/Solution/SSH.API/SSH.Framework.CQRS/bin
 /Solution/SSH.API/SSH.Framework.CQRS/obj
+
+/Solution/SSH.API/SSH.Framework.Logging/bin
 /Solution/SSH.API/SSH.Framework.Logging/obj
 
+/Solution/SSH.API/SSH.Framewor.Persistence/bin
 /Solution/SSH.API/SSH.Framewor.Persistence/obj
