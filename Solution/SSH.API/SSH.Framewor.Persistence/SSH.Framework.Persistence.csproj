@@ -7,11 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.5.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.22" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.22" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SSH.Framework.Context\SSH.Framework.Context.csproj" />
+    <ProjectReference Include="..\SSH.Framework.Logging\SSH.Framework.Logging.csproj" />
+    <ProjectReference Include="..\SSH.Framework.Utilities\SSH.Framework.Utilities.csproj" />
     <ProjectReference Include="..\SSH.Framework\SSH.Framework.csproj" />
   </ItemGroup>
 

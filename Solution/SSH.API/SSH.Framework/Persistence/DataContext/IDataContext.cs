@@ -9,6 +9,7 @@ namespace SSH.Framework.Persistence
 
         bool IsDisposed { get; }
 
+        void Dispose(bool disposing);
         string GetTableName<TEntity>() where TEntity : EntityBase;
     }
 }

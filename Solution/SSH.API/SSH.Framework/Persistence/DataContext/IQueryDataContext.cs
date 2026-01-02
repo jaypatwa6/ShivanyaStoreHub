@@ -1,6 +1,6 @@
-﻿namespace SSH.Framework.Persistence.DataContext
+﻿namespace SSH.Framework.Persistence
 {
-    internal interface IQueryDataContext : IDataContext
+    public interface IQueryDataContext : IDataContext
     {
     }
 }

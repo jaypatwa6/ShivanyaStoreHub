@@ -1,4 +1,4 @@
-﻿namespace SSH.Framework.Persistence.DataContext
+﻿namespace SSH.Framework.Persistence
 {
     public interface IWritableDataContext : IDataContext
     {

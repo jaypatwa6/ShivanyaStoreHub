@@ -14,7 +14,7 @@ namespace SSH.Framework.Persistence
 
         TEntity GetOne(Expression<Func<TEntity, bool>> predicate);
 
-        TEntity GetOne<TMappedEntity>(Expression<Func<TEntity, TMappedEntity>> selector, Expression<Func<TEntity, object>> predicate);
+        TMappedEntity GetOne<TMappedEntity>(Expression<Func<TEntity, TMappedEntity>> selector, Expression<Func<TEntity, bool>> predicate);
 
         IEnumerable<TEntity> GetAll();
 

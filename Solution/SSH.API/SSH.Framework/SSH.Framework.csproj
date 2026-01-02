@@ -9,7 +9,10 @@
   <ItemGroup>
     <Folder Include="Caching\" />
     <Folder Include="CQRS\" />
-    <Folder Include="Logging\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.5.1" />
   </ItemGroup>
 
 </Project>
