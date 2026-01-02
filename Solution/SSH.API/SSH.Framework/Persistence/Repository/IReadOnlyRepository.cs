@@ -6,7 +6,7 @@ namespace SSH.Framework.Persistence.Repository
 {
     public interface IReadOnlyRepository<TEntity, in TKey> where TEntity : Entity<TKey>
     {
-        List<Entity> GetList(Expression<Func<TEntity, bool>> filter = null, Func<IOrderedQueryable<TEntity>,
+        List<TEntity> GetList(Expression<Func<TEntity, bool>> filter = null, Func<IOrderedQueryable<TEntity>,
             IOrderedQueryable<TEntity>> orderedQueryableBuilder = null,
             params Expression<Func<TEntity, object>>[] includedParentReferences);
 
