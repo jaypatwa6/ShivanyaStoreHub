@@ -27,3 +27,12 @@
 
 /Solution/SSH.API/SSH.Framework.Utilities/bin
 /Solution/SSH.API/SSH.Framework.Utilities/obj
+
+/Solution/SSH.API/SSH.Module.Common/obj
+/Solution/SSH.API/SSH.Module.Common/bin
+
+/Solution/SSH.API/SSH.Module.Common.Domain/obj
+/Solution/SSH.API/SSH.Module.Common.Domain/bin
+
+/Solution/SSH.API/SSH.Module.Common.Domain.Mapping/obj
+/Solution/SSH.API/SSH.Module.Common.Domain.Mapping/bin
