@@ -19,7 +19,6 @@
             CommandMap.Add(typeof(TCommand), typeof(TProcessor));
         }
 
-
         protected void RegisterEvent<TEvent, THandler>()
             where TEvent : IEvent
             where THandler : IEventHandler
