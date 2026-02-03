@@ -13,19 +13,19 @@ namespace SSH.Framework.Persistence.Infrastructure
             RegisterMappings(modelBuilder.Configurations);
         }
 
-        private void RegisterMappings(ConfigurationRegistrar configurations)
+        protected virtual void RegisterMappings(ConfigurationRegistrar configurations)
         {
-            
+
         }
 
-        private void RegisterValueObjectTypes(DbModelBuilder modelBuilder)
+        protected virtual void RegisterValueObjectTypes(DbModelBuilder modelBuilder)
         {
-            
+
         }
 
-        private void RegisterConventions(ConventionsConfiguration conventions)
+        protected virtual void RegisterConventions(ConventionsConfiguration conventions)
         {
-            
+
         }
     }
 }

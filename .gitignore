@@ -36,3 +36,10 @@
 
 /Solution/SSH.API/SSH.Module.Common.Domain.Mapping/obj
 /Solution/SSH.API/SSH.Module.Common.Domain.Mapping/bin
+
+/Solution/SSH.API/SSH.Module.Administration/obj
+/Solution/SSH.API/SSH.Module.Administration/bin
+
+/Solution/SSH.API/SSH.Module.Administration.Domain.Repositories/obj
+/Solution/SSH.API/SSH.Module.Administration.Domain.Repositories/bin
+

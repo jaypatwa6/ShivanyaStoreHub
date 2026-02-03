@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Write\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SSH.Framewor.Persistence\SSH.Framework.Persistence.csproj" />
+    <ProjectReference Include="..\SSH.Framework\SSH.Framework.csproj" />
+    <ProjectReference Include="..\SSH.Module.Common.Domain.Mapping\SSH.Module.Common.Domain.Mapping.csproj" />
+  </ItemGroup>
+
+</Project>

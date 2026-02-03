@@ -1,10 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using SSH.Framework.Model.EntityBase;
+using System.Data.Entity.ModelConfiguration;
 
 namespace SSH.Framework.Persistence.Infrastructure.Mapping
 {
-    public abstract class EntityMappingBase<TEntity> : IEntityTypeConfiguration<TEntity> where TEntity : EntityBase
+    public abstract class EntityMappingBase<TEntity> : EntityTypeConfiguration<TEntity> where TEntity : EntityBase
     {
         public virtual void Configure(EntityTypeBuilder<TEntity> builder)
         {

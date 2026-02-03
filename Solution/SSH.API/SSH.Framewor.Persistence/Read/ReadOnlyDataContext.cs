@@ -14,4 +14,12 @@ namespace SSH.Framework.Persistence.Read
 
         }
     }
+
+    public class ReadOnlyDataContext<TContextConfigure> : ReadOnlyDataContext where TContextConfigure : IDataModelConfiguration
+    {
+        public ReadOnlyDataContext(DbContextOptions options, IDataModelConfiguration dataModelConfiguration, ApplicationContext applicationContext, ILogger logger)
+            : base(options, dataModelConfiguration, applicationContext, logger)
+        {
+        }
+    }
 }

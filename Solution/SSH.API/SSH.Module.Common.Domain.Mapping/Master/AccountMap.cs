@@ -5,7 +5,7 @@ using SSH.Module.Common.Domain.Entities.Master;
 
 namespace SSH.Module.Common.Domain.Mapping.Master
 {
-    public class AccountMap : EntityMappingBase<Account>
+    public class AccountMap : EntityMappingWithLongIdentity<Account>
     {
         public override void Configure(EntityTypeBuilder<Account> builder)
         {
