@@ -1,4 +1,22 @@
-﻿/****** Object:  Table [dbo].[Account]    Script Date: 22-Jan-2026 16:31:30 ******/
+﻿/****** Object:  Table [dbo].[Account_Type]    Script Date: 02-Feb-2026 15:36:30 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Account_Type](
+	[ID] [uniqueidentifier] NOT NULL,
+	[Name] [nvarchar](50) NOT NULL,
+	[Description] [nvarchar](500) NULL,
+ CONSTRAINT [PK_Account_Type] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+/****** Object:  Table [dbo].[Account]    Script Date: 22-Jan-2026 16:31:30 ******/
 SET ANSI_NULLS ON
 GO
 
@@ -21,6 +39,13 @@ CREATE TABLE [dbo].[Account](
 	[ID] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[Account]  WITH CHECK ADD  CONSTRAINT [FK_Account__Account_TypeID_X_Account_Type__ID] FOREIGN KEY([Account_TypeID])
+REFERENCES [dbo].[Account_Type] ([ID])
+GO
+
+ALTER TABLE [dbo].[Account] CHECK CONSTRAINT [FK_Account__Account_TypeID_X_Account_Type__ID]
 GO
 
 /*

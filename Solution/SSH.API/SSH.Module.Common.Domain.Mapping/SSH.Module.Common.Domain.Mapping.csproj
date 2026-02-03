@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SSH.Framewor.Persistence\SSH.Framework.Persistence.csproj" />
+    <ProjectReference Include="..\SSH.Framework\SSH.Framework.csproj" />
+    <ProjectReference Include="..\SSH.Module.Common.Domain\SSH.Module.Common.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
